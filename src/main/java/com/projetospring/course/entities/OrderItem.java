@@ -8,7 +8,9 @@ import jakarta.persistence.Table;
 import org.aspectj.weaver.ast.Or;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name="tb_order_item")
